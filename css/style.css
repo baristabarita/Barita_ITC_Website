@@ -1,0 +1,32 @@
+@font-face{
+    font-family: 'Genshin';
+    src: url('../fonts/HYWenHei.ttf')
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+
+.btn{
+  background: #efeae2;
+  width: 100%;
+  padding: 10px 30px;
+  color: #262626;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.btn:hover{
+    letter-spacing: .2rem;
+}
