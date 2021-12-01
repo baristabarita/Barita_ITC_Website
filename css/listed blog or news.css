@@ -1,0 +1,87 @@
+.list_item img{
+	width: 250px;
+}
+
+h4{
+    padding-top: 5px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px
+}
+
+.cont-container{
+    width: 800px;
+	margin: 20px auto;
+	margin-bottom: 25px;
+	background: #efeae2;
+	padding: 15px;
+	border-radius: 3px;
+}
+/*
+.links ul{
+	display: flex;
+	justify-content: center;
+}
+
+.links ul li{
+	margin: 0 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.links ul li:hover,
+.links ul li.active{
+	color: #4abd3e;
+}
+*/
+
+.list_item{
+	background: #fff;
+	border-radius: 3px;
+	padding: 15px;
+}
+.cont-container .list_item{
+	background: #fff;
+	border: 1px solid #e2efe1;
+	margin: 10px;
+	padding: 10px 20px;
+	display: flex;
+	align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.cont-container .list_item:last-child{
+	margin-bottom: 0;
+}
+
+.cont-container .list_item .vi_left{
+	margin-right: 25px;
+}
+
+.list_item .title{
+	font-weight: 600;
+}
+
+.list_item .content{
+	margin: 5px 0;
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 200;
+}
+
+.list_item .cont_btn{
+	width: 125px;
+	padding: 8px 5px;
+	border-radius: 3px;
+	color: #ffc000;
+	text-align: center;
+	font-weight: 200;
+	cursor: pointer;
+}
+
+.list_item .cont_btn:hover{
+	background: #3bd62b;
+}

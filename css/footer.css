@@ -9,7 +9,7 @@ body{
 }
 
 .footer-distributed{
-	background-image: url(../../images/Footer.png);
+	background-image: url(../images/Footer.png);
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;

@@ -2,7 +2,7 @@
     font-family: 'Genshin';
     src: url('../fonts/HYWenHei.ttf')
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
 /*
 :root{
     --orange:#ff7800;
@@ -22,7 +22,7 @@
 
 body{
   height: 100vh;
-  background: #000;
+  background: #ebebeb;
 }
 section{
     padding: 10px;
@@ -73,14 +73,27 @@ section{
 
 .features .box-container .box h3{
     font-size: 19px;
+    font-family: 'Outfit', sans-serif;
     margin-left: 0px;
     text-align:left;
     color:#fff;
 }
 
 .features .box-container .box p{
-    font-size: 15px;
-    line-height: 1.4;
+    font-size: 13px;
+    font-family: 'Outfit', sans-serif;
+    text-align: left;
     color:#fff;
-    padding: 20px;
+
+}
+.features .box-container .box a{
+    font-family: 'Outfit', sans-serif;
+    display: inline-flex;
+    padding-left: 300px;
+    align-content: space-between;
+    color: #ffc000;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 22px;
+    overflow: hidden;
 }

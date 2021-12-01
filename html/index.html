@@ -19,22 +19,30 @@
     <!--=============== CSS Files ===============-->
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/carousel.css">
+    <link rel="stylesheet" href="../css/listed%20blog%20or%20news.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/style.css">
     <!--=============== CSS FILES ===============-->
-    
+
+    <!--=============== Inline CSS Parts ===============-->
     <style>
         .features{
-            background-image: url(images/Homepage_Featured.png);
+            background-image: url(../images/Homepage_Featured.png);
             background-repeat: no-repeat;
             background-attachment: local;
             background-size: 150%;
         }
+        .list_cont{
+            background-image: url(../images/HomeFeat2.png);
+            background-repeat: no-repeat;
+            background-attachment: local;
+            background-size: 110%;
+        }
     </style>
+    <!--=============== Inline CSS Parts ===============-->
+    
 </head>
-<body>
-
-::before        
+<body>       
     <!--=============== NAVIGATION BAR ===============-->
     
 <nav>
@@ -89,22 +97,21 @@
         </div>
       </div>
       <div class="slide">
-        <img src="../images/Explore.png" alt="">
+        <img src="../images/Display_Charas.png" alt="">
         <div class="info">
-          <h1>Tropical Desert</h1>
-            <p>Genshin Impact is miHoyo's first ever open world
-              <br>game, where beliefs in "The Seven" converge in
-                <br>the fantasy world of Teyvat.</p>
+          <h1>Know your Characters</h1>
+            <p>Get to know who you will be travelling with 
+              <br>around the world of Teyvat!</p>
             <a href="#" class="btn">View More</a>
         </div>
       </div>
       <div class="slide">
-        <img src="../images/Inazuma1.png" alt="">
+        <img src="../images/media-banner.png" alt="">
         <div class="info">
-          <h1>Steaming Volcanoes</h1>
-            <p>Genshin Impact is miHoyo's first ever open world
-              <br>game, where beliefs in "The Seven" converge in
-                <br>the fantasy world of Teyvat.</p>
+          <h1>Send Feedback</h1>
+            <p>If youre having trouble with a couple of things,
+              <br>send some feedback to the developers so they
+                <br>be alerted to any bugs or problems.</p>
             <a href="#" class="btn">View More</a>
         </div>
       </div>
@@ -119,39 +126,58 @@
     <!--===============FEATURED===============-->
 
 <section class="features" id="features">
-
-    <h1 class="heading"> our <span>features</span> </h1>
-
-    <div class="box-container" background="images/Footer.png">
+    <div class="box-container">
 
         <div class="box">
-            <img src="images/recent-news.png" alt="">
+            <img src="../images/recent-news.png" alt="">
             <h3>New Event - Shadows Amidst Snowstorms</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, earum!</p>
-            <a href="#" class="btn">read more</a>
+            <p>The "Shadows Amidst Snowstorms" event is about to<br>begin! Paimon has an odd thought and drags you off<br>to the Mondsadt alchemy shop to seek answers...</p>
+            <a href="#" id = "info">Info</a>
         </div>
 
         <div class="box">
-            <img src="image/feature-img-2.png" alt="">
-            <h3>free delivery</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, earum!</p>
-            <a href="#" class="btn">read more</a>
+            <img src="../images/FeaturedChar.png" alt="">
+            <h3>Featured Character - Kaedehara Kazuha</h3>
+            <p>The clouds float above the vast mountains,the sky is azure <br> and the water is still.It's a beautiful day to create poetry.<br> But it matters naught...</p>
+            <a href="#" id = "info">Info</a>
         </div>
 
         <div class="box">
-            <img src="image/feature-img-3.png" alt="">
-            <h3>easy payments</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, earum!</p>
-            <a href="#" class="btn">read more</a>
+            <img src="../images/newsPic.png" alt="">
+            <h3>Update Roadmap - see the next<br>upcoming updates</h3>
+            <p>Get a special sneak peak on the future updates to come.<br> More exciting adventures await travelers! Be sure to stay<br> tuned for more !</p>
+            <a href="#" id = "info">Info</a>
         </div>
 
     </div>
 
 </section>
     
-    <!--===============OTHER CONTENT===============
-    <img src= "../images/HomeFeat2.png">
-b384b3c629a1e89d2b14d27475db43e9bd73be83:html/index.html
+    <!--===============OTHER CONTENT===============-->
+    <section class="list_cont" id="list_cont">
+       <h4>View the latest news or developer blog</h4>
+        <div class="cont-container">
+           <div class="list_item">
+				<div class="vi_left"><img src="../images/News%20and%20updates%20Banner.png" alt="newsNUpt"></div>
+				
+            <div class="vi_right">
+					<p class="title">Stay updated with the latest news and updates!</p>
+					<p class="content">Head over to the news page to get updated with the latest news happening now.</p>
+					<div class="cont_btn">Read More</div>
+				</div>
+			</div>
+            <div class="list_item">
+				<div class="vi_left"><img src="../images/developer%20thumbnail.png" alt="newsNUpt"></div>
+				
+            <div class="vi_right">
+					<p class="title">Tune in with the latest Developer Blog</p>
+					<p class="content">Take a look at what the developers are up to. Travelers will be able to get a behind the scenes idea with the Developers Blog!</p>
+					<div class="cont_btn">Read More</div>
+				</div>
+			</div>
+        
+    </div>    
+    </section>
     <!--===============OTHER CONTENT===============-->
     
     <!--===============FOOTER===============-->
@@ -174,7 +200,7 @@ b384b3c629a1e89d2b14d27475db43e9bd73be83:html/index.html
     
     
     <!--=============== JAVASCRIPTS USED ===============-->
-<script src="javascripts/script.js"></script>
+<script src="../javascripts/script.js"></script>
     
 </body>
 </html>
