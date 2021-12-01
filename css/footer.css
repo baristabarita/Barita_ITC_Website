@@ -10,6 +10,7 @@ body{
 
 .footer-distributed{
 	background-image: url(../images/Footer.png);
+    position: relative;
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;

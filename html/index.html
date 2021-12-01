@@ -26,17 +26,22 @@
 
     <!--=============== Inline CSS Parts ===============-->
     <style>
-        .features{
-            background-image: url(../images/Homepage_Featured.png);
-            background-repeat: no-repeat;
-            background-attachment: local;
-            background-size: 150%;
+        .recco_index{
+            position: absolute;
+            top: 700px;
+            background: #f0f0f0 url(../images/Homepage_Featured.png) no-repeat center;
+            background-size: cover;
+            overflow: hidden;
         }
-        .list_cont{
-            background-image: url(../images/HomeFeat2.png);
-            background-repeat: no-repeat;
-            background-attachment: local;
-            background-size: 110%;
+        .news_index{
+            position: absolute;
+            top: 1300px;
+            background: url(../images/HomeFeat2.png) no-repeat center;
+            background-size: cover;
+            overflow: hidden;
+        }
+        .footer-distributed{
+        top: 1200px;;
         }
     </style>
     <!--=============== Inline CSS Parts ===============-->
@@ -54,8 +59,8 @@
             <i class='bx bx-x'></i>
             </div>
             <ul class= "links">
-                <li><a href= "#">HOME</a></li>
-                <li><a href= "#">NEWS</a></li>
+                <li><a href= "index.hml">HOME</a></li>
+                <li><a href= "news.html">NEWS</a></li>
                 <li>
                     <a href="#">GAME INFO</a>
                     <i class='bx bxs-chevron-down arrow gameinfo-arrow'></i>
@@ -125,63 +130,91 @@
         
     <!--===============FEATURED===============-->
 
-<section class="features" id="features">
-    <div class="box-container">
-
-        <div class="box">
-            <img src="../images/recent-news.png" alt="">
-            <h3>New Event - Shadows Amidst Snowstorms</h3>
-            <p>The "Shadows Amidst Snowstorms" event is about to<br>begin! Paimon has an odd thought and drags you off<br>to the Mondsadt alchemy shop to seek answers...</p>
-            <a href="#" id = "info">Info</a>
+<section class="featured">
+    <div class="content-wrap">
+        <div class="recco_index">
+            <div class="bode">
+    <h4>Recommended Posts</h4>
+    <ul class="recommend">
+        <li title="Genshin Impact EP - Gentle Waves of Frost" class="recommend__item">
+            <a href="/en/news/detail/17293" class="news__title ellipsis">
+                <div class="recommend__imgwrap"><img src="../images/FeaturedChar3.png"></div> 
+                    <h3 class="recommend__title">Genshin Impact EP - Gentle Waves of Frost</h3>
+                    <p class="recommend__summary">Windswept cliffs, secluded forests, and snow at the foot of a mountain.
+                    Across the outskirts of Mondstadt lie the scattered footprints of the Spindrift Knight.</p></a> 
+                <div class="recommend__meta"><span class="recommend__date">Nov 25, 2021</span> 
+                <span class="recommend__category news__cate-2">Info</span>
+            </div>
+        </li>
+                    
+            <li title="Genshin Impact EP - Gentle Waves of Frost" class="recommend__item">
+            <a href="/en/news/detail/17293" class="news__title ellipsis">
+                <div class="recommend__imgwrap"><img src="../images/FeaturedChar.png"></div> 
+                <h3 class="recommend__title">Featured Character - Kaedehara Kazuha</h3>
+                <p class="recommend__summary">The clouds float above the vast mountains, the sky is azure and the water is still. It's a beautiful day to create poetry. But it matters naught...</p></a> 
+            <div class="recommend__meta"><span class="recommend__date">Nov 25, 2021</span> 
+                <span class="recommend__category news__cate-2">Info</span>
+            </div>
+        </li>
+                    
+            <li title="Genshin Impact EP - Gentle Waves of Frost" class="recommend__item">
+            <a href="/en/news/detail/17293" class="news__title ellipsis">
+                <div class="recommend__imgwrap"><img src="../images/recent-news.png" class="recommend__img coverFit"></div> 
+                <h3 class="recommend__title">New Event - Shadows Amidst Snowstorms</h3>
+                <p class="recommend__summary">The "Shadows Amidst Snowstorms" event is about to begin! Paimon has an odd thought and drags you off to the Mondstadt alchemy shop to seek answers.</p></a> 
+            <div class="recommend__meta"><span class="recommend__date">Nov 25, 2021</span> 
+                <span class="recommend__category news__cate-2">Info</span>
+            </div>
+        </li>
+    </ul>
         </div>
-
-        <div class="box">
-            <img src="../images/FeaturedChar.png" alt="">
-            <h3>Featured Character - Kaedehara Kazuha</h3>
-            <p>The clouds float above the vast mountains,the sky is azure <br> and the water is still.It's a beautiful day to create poetry.<br> But it matters naught...</p>
-            <a href="#" id = "info">Info</a>
-        </div>
-
-        <div class="box">
-            <img src="../images/newsPic.png" alt="">
-            <h3>Update Roadmap - see the next<br>upcoming updates</h3>
-            <p>Get a special sneak peak on the future updates to come.<br> More exciting adventures await travelers! Be sure to stay<br> tuned for more !</p>
-            <a href="#" id = "info">Info</a>
-        </div>
-
     </div>
-
+</div>
 </section>
+
     
     <!--===============OTHER CONTENT===============-->
-    <section class="list_cont" id="list_cont">
-       <h4>View the latest news or developer blog</h4>
-        <div class="cont-container">
-           <div class="list_item">
-				<div class="vi_left"><img src="../images/News%20and%20updates%20Banner.png" alt="newsNUpt"></div>
-				
-            <div class="vi_right">
-					<p class="title">Stay updated with the latest news and updates!</p>
-					<p class="content">Head over to the news page to get updated with the latest news happening now.</p>
-					<div class="cont_btn">Read More</div>
-				</div>
-			</div>
-            <div class="list_item">
-				<div class="vi_left"><img src="../images/developer%20thumbnail.png" alt="newsNUpt"></div>
-				
-            <div class="vi_right">
-					<p class="title">Tune in with the latest Developer Blog</p>
-					<p class="content">Take a look at what the developers are up to. Travelers will be able to get a behind the scenes idea with the Developers Blog!</p>
-					<div class="cont_btn">Read More</div>
-				</div>
-			</div>
-        
-    </div>    
-    </section>
+<section class="list_cont">
+    <div class="news-wrap">
+        <div class="news_index"> 
+            <div class="body">
+            
+    <ul class="news">
+    <h4>View the latest news or developer blog</h4>
+    <li class="news__item news__tag-2">
+        <a href="#" class="news__title news__content ellipsis">
+            <img src="../images/News%20and%20updates%20Banner.png" class="coverFit"> 
+            <div class="news__info"><h3>Stay updated with the latest news and updates</h3> 
+                <p class="news__summary">Head over to the news page to get updated with the latest  news trending and happening now.
+                </p>
+            </div>
+        </a> 
+        <div class="news__meta">
+            <div class="news__date">Nov 25, 2021</div> 
+            <a href="/en/news/11" class="news__category news__cate-2">Info</a>
+        </div>
+    </li>
+    
+    <li class="news__item news__tag-2">
+        <a href="/en/news/detail/17244" class="news__title news__content ellipsis">
+            <img src="../images/developer%20thumbnail.png" class="coverFit"> 
+            <div class="news__info"><h3>Tune in with the latest Developer Blog</h3> <p class="news__summary">Take a look at what the developers are up to. Travelers will be able to get a behind the scenes idea with the Developers Blog</p>
+        </div>
+        </a> 
+        <div class="news__meta">
+            <div class="news__date">Nov 24, 2021</div> 
+            <a href="/en/news/11" class="news__category news__cate-2">Info</a>
+        </div>
+    </li>
+    </ul>
+</div>
+</div>
+</div>    
+</section>
     <!--===============OTHER CONTENT===============-->
     
     <!--===============FOOTER===============-->
-<footer class="footer-distributed">
+    <footer class="footer-distributed">
 
 			<div class="footer-left">
 

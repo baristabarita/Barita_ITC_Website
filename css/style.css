@@ -3,26 +3,11 @@
     src: url('../fonts/HYWenHei.ttf')
 }
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
-/*
-:root{
-    --orange:#ff7800;
-    --black:#130f40;
-    --light-color:#666;
-    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
-    --border:.2rem solid rgba(0,0,0,.1);
-    --outline:.1rem solid rgba(0,0,0,.1);
-    --outline-hover:.2rem solid var(--black);
-}*/
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body{
-  height: 100vh;
-  background: #ebebeb;
 }
 section{
     padding: 10px;
@@ -42,58 +27,149 @@ section{
     letter-spacing: .2rem;
 }
 
-/* -- Featured sections -- */
+.banner{
+    min-height: 80vh;
+    display: center;
+    
+}
+.banner .title{
+    max-width: 100%;
+    
+}
+.banner .title h1{
+    padding-top: 200px;
+    font-size: 90px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 4px #262626;
+    color: #fff;
+}
 
-.features .box-container{
+
+
+
+/* -- Recommended Section -- */
+.recco_index{
+    position: relative;
+    display: block;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 700px;
+}
+.recco_index .bode {
+    position: relative;
+    width: 1280px;
+    left: 50%;
+    margin-left: -640px;
+    min-height: 1240px;
+    padding-bottom: 208px;
+}
+.recco_index .bode .recommend {
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding-top: 14px;
     width: 100%;
-    height: 500px;
-    gap: 15px;
+    height: 700px;
+    list-style-type: none;
 }
-
-.features .box-container .box{
-    padding:30px 20px;
-    background: #262626;
+.recco_index .bode h4{
+    padding-top: 15px;
+    color: #fff;
+    font-size: 50px;
     text-align: center;
-    box-shadow: var(--box-shadow);
-    overflow: hidden;
+    text-shadow: 4px 4px 4px #262626;
+    transition: all 0.5s 0s ease;
 }
-
-.features .box-container .box:hover{
-    outline: var(--outline-hover);
-    outline-offset: 0rem;
+.recco_index .bode .recommend__item {
+    position: relative;
+    width: 420px;
+    height: 450px;
+    background-color: rgba(18,18,18,0.8);
+    box-shadow: 0px 3px 7px 0px rgb(0 0 0 / 35%);
+    border-radius: 4px;
+    opacity: 0.9;
 }
-
-.features .box-container .box img{
-    width: 100%;
-    height: 60%;
+.recco_index .bode .ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
-
-.features .box-container .box h3{
-    font-size: 19px;
-    font-family: 'Outfit', sans-serif;
-    margin-left: 0px;
-    text-align:left;
-    color:#fff;
+.ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
-
-.features .box-container .box p{
-    font-size: 13px;
-    font-family: 'Outfit', sans-serif;
-    text-align: left;
-    color:#fff;
-
-}
-.features .box-container .box a{
-    font-family: 'Outfit', sans-serif;
-    display: inline-flex;
-    padding-left: 300px;
-    align-content: space-between;
-    color: #ffc000;
+a{
     text-decoration: none;
-    font-size: 13px;
-    line-height: 22px;
+}
+.recco_index .bode .recommend__imgwrap {
+    width: 380px;
+    height: 190px;
+    margin: 20px auto;
     overflow: hidden;
 }
+.recco_index .bode .recommend__item img {
+    transition: all 0.5s 0s ease;
+    margin-left: 10px;
+}
+.recco_index .bode .recommend__img {
+    width: 100%;
+    height: 100%;
+}
+.coverFit {
+    object-fit: cover;
+}
+.recco_index .bode .recommend__title {
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 34px;
+    color: #fefefe;
+    padding: 0 17px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    max-height: 70px;
+    margin: 10px;
+}
+.recco_index .bode .recommend__summary {
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    padding: 0 17px;
+    max-height: 88px;
+    overflow: hidden;
+    word-wrap: break-word;
+    white-space: normal;
+    margin: 0px 0px 0px 10px;
+}
+.recco_index .bode .recommend__meta {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.recco_index .bode .recommend__date {
+    display: inline-block;
+    color: #808080;
+}
+.recco_index .bode .recommend__category, .recco_index .bode .recommend__date {
+    font-size: 16px;
+    line-height: 22px;
+}
+.recco_index .bode .news__cate-2 {
+    color: #ffc000;
+}
+.recco_index .bode .recommend__category {
+    text-decoration: none;
+}
+/* -- Recommended End -- */
