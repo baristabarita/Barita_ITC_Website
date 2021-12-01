@@ -9,7 +9,7 @@ body{
 }
 
 .footer-distributed{
-	background-image: url(../images/Footer.png);
+	background-image: url(../../images/Footer.png);
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
@@ -28,7 +28,7 @@ body{
 	color:  #ffffff;
     font-size: 20px;
 	margin: 0 0 10px 10px;
-    text-decoration none;
+    text-decoration: none;
 }
 .footer-distributed a{
     text-decoration: none;
@@ -110,7 +110,4 @@ body{
     width: 100%;
 }
 }*/
-
-
-
-
+}
