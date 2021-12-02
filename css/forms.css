@@ -29,7 +29,7 @@ body {
 }
 
 #footer-login{
-  top:550px;
+  top:518px;
 }
 
 #login-header{
@@ -191,4 +191,74 @@ body {
   text-decoration: underline;
   text-align: right;
   color: #ffae00;
+}
+/* ========== FEEDBACK CSS ==========  */
+.banner{
+  background: url(../images/developerPic2.png);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+#feedback-header{
+  text-align:center;
+  font-size: 16px;
+  color:#fff;
+}
+
+#feedback-holder {
+  font-family:'Genshin',sans-serif;
+  position:absolute;
+  top:15%;
+  width: 500px;
+  height: 500px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.86);
+  border-radius: 7px;
+  box-shadow: 0px 0px 5px 2px black;
+}
+
+.feedback-form-field::placeholder {
+  text-align: left;
+  font-family:'Genshin',sans-serif;
+  color: #3a3a3a;
+}
+
+.feedback-form-field {
+  width: 350px;
+  background:#fff;
+  border: 1px solid #fff;
+  margin: 6px 0;
+  border-radius: 20px;
+  padding: 0 10px;
+  outline: none;
+  box-sizing: border-box;
+  text-align: center;
+  color:#fff
+}
+#feedback-form {
+  align-self: flex-start;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+#message-field{
+  height: 250px;
+}
+#feedback-form-submit {
+  font-family:'Genshin',sans-serif;
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  color: #ffae00;
+  font-weight: bold;
+  background-color: #3a3a3a;
+  cursor: pointer;
+  outline: none;
+}
+#footer-feedback{
+  top:800px;
 }
