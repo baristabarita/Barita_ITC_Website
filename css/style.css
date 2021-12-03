@@ -33,22 +33,45 @@ a {
 
 /* -- Header banner sections -- */
 
-.banner{
- position: relative;
-  min-width: 100%;
-  min-height: 730px;
-  overflow: hidden;
-}
-.banner .banz{
-    position: absolute;
+.banner_index {
+    position: relative;
     width: 100%;
-    height: 100%;
 }
-.banner .banz img{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.banner_index .banner_post {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    padding-bottom: 300px;
+}
+
+.banner_index .banner_inner {
+    width: 1280px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.banner_index .banner_title {
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 70px;
+    height: 100%;
+    margin-top: 300px;
+    /*margin-left: 200px;*/
+    /*text-shadow: 0 2px 6px rgb(0 0 0 / 10%);*/
+    text-shadow: 4px 4px 4px #262626;
+    color: #fff;
+}
+.banner_index .banner_desc img{
+    position: relative;
+    display: block;
+    width: 600px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
 }
 .banner .banz h1{
     position: relative;
@@ -69,6 +92,7 @@ a {
     text-shadow: 4px 4px 4px #262626;
     color: #fff;
 }
+
 .feedbtn{
   position: relative;
   background: #262626;
