@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang = "en" >
+    
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--=============== ICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!--=============== ICONS ===============-->
+    
+        <title>Genshin Impact - Connect</title>
+    
+    <!--=============== FONTS ===============-->
+    <!--=============== FONTS ===============-->
+    
+    <!--=============== CSS Files ===============-->
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mediaGallery.css">
+    <!--=============== CSS FILES ===============-->
+
+    <!--=============== Inline CSS Parts ===============-->
+    <style>
+        html{
+            background: url(../images/Domain3blurred.png) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -0-background-size: cover;
+            background-size: cover;
+        }
+        .footer-distributed{
+            position: absolute;
+            top: 2100px;
+            overflow: hidden;
+        }
+    </style>
+    <!--=============== Inline CSS Parts ===============-->
+    
+</head>
+<body>
+    
+    <!--=============== NAVIGATION BAR ===============-->
+    
+<nav>
+    <div class="navbar">
+        <i class='bx bx-menu'></i>
+        <div class= "logo"><a href="#"><img src="../images/Logo.png"></a></div>
+        <div class= "nav-links">
+        <div class="sidebar-logo"><span class="logo_name"><img src="../images/Logo.png"></span>
+            <i class='bx bx-x'></i>
+            </div>
+            <ul class= "links">
+                <li><a href= "index.html">HOME</a></li>
+                <li><a href= "news.html">NEWS</a></li>
+                <li>
+                    <a href="#">GAME INFO</a>
+                    <i class='bx bxs-chevron-down arrow gameinfo-arrow'></i>
+                    <ul class= "gameInfo-sub-menu sub-menu">
+                        <li><a href="media.html">Media</a></li>
+                        <li><a href="#">Characters</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">MORE</a>
+                    <i class='bx bxs-chevron-down arrow more-arrow'></i>
+                    <ul class= "more-sub-menu sub-menu">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="login">
+            <a href="login.html" class="log">Log in</a>
+        </div>
+    </div>
+</nav>
+    
+    <!--=============== NAVIGATION BAR ===============-->
+    
+    <!--=============== HEADER PICTURE ===============-->
+    
+<div class="banner">
+    <div class="banz">
+        <img src="../images/media-banner.png"> 
+        <div class="title"><h1>Welcome to the Media Page</h1></div>
+    </div>
+</div>
+    
+    <!--=============== HEADER PICTURE ===============-->
+    
+<div class="contain">
+<h1>Game Videos</h1>
+    <div class = "video-container">
+        <div class="media"><video src="../videos/video-1.mp4"></video></div>
+        <div class="media"><video src="../videos/video-2.mp4"></video></div>
+        <div class="media"><video src="../videos/video-3.mp4"></video></div>
+        <div class="media"><video src="../videos/video-4.mp4"></video></div>
+        <div class="media"><video src="../videos/video-5.mp4"></video></div>
+    </div>
+    
+    <div class="popup-video">
+        <span>&times;</span>
+        <video src="../videos/video-1.mp4" muted autoplay controls></video>
+    </div>
+    
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    
+<h1> Take a look around Teyvat </h1>
+    <div class = "img-container">
+        <div class="media"><img src="../images/Inazuma3.png"></div>
+        <div class="media"><img src="../images/Liyue4.png"></div>
+        <div class="media"><img src="../images/Mondstadt2.png"></div>
+        <div class="media"><img src="../images/Cathedral1.png"></div>
+        <div class="media"><img src="../images/Inazuma1.png"></div>
+        <div class="media"><img src="../images/Liyue1.png"></div>
+    </div>
+    
+    <div class="popup-img">
+        <span>&times;</span>
+        <img src="../images/Inazuma3.png">
+    </div>
+</div>   
+    
+    
+    <!--===============FOOTER===============-->
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+                <a href="#"><h3>About</h3></a>
+                <img src="../images/Footer-Logos.png">
+			</div>
+
+			<div class="footer-right">
+                <h1> Copyright © 2020 miHoyo All Rights Reserved</h1>
+				<p>All content presented are rightfully owned<br>by miHoyo</p>
+			</div>
+
+		</footer>
+    <!--===============FOOTER===============-->
+        
+    <!--=============== JAVASCRIPTS USED ===============-->
+<script>
+/* -- Media Selection JS -- */
+    
+document.querySelectorAll('.video-container video').forEach(vid =>{
+    vid.onclick = () =>{
+        document.querySelector('.popup-video').style.display = 'block';
+        document.querySelector('.popup-video video').src = vid.getAttribute('src');
+        
+    }
+});
+document.querySelector('.popup-video span').onclick = () => {
+    document.querySelector('.popup-video').style.display = 'none';
+}
+
+
+/* -- Picture -- */
+document.querySelectorAll('.img-container img').forEach(vid =>{
+    vid.onclick = () =>{
+        document.querySelector('.popup-img').style.display = 'block';
+        document.querySelector('.popup-img img').src = vid.getAttribute('src');
+        
+    }
+});
+document.querySelector('.popup-img span').onclick = () => {
+    document.querySelector('.popup-img').style.display = 'none';
+}
+</script>    
+</body>
+</html>

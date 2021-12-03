@@ -18,12 +18,22 @@
     
     <!--=============== CSS Files ===============-->
     <link rel="stylesheet" href="../css/navbar.css">
-    <link rel="stylesheet" href="../css/carousel.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/forms.css">
     <link rel="stylesheet" href="../css/style.css">
     <!--=============== CSS FILES ===============-->
     
+    <!--=============== Inline CSS Parts ===============-->
+    <style>
+        html{
+            background: url(../images/FeedbackBack0.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -0-background-size: cover;
+            background-size: cover;
+        }
+    </style>
+    <!--=============== Inline CSS Parts ===============-->
 </head>
 <body>
         <!-- =============== NAVIGATION BAR =============== -->
@@ -38,12 +48,12 @@
             </div>
             <ul class= "links">
                 <li><a href= "index.html">HOME</a></li>
-                <li><a href= "#">NEWS</a></li>
+                <li><a href= "news.html">NEWS</a></li>
                 <li>
                     <a href="#">GAME INFO</a>
                     <i class='bx bxs-chevron-down arrow gameinfo-arrow'></i>
                     <ul class= "gameInfo-sub-menu sub-menu">
-                        <li><a href="#">Media</a></li>
+                        <li><a href="media.html">Media</a></li>
                         <li><a href="#">Characters</a></li>
                     </ul>
                 </li>
@@ -52,7 +62,7 @@
                     <i class='bx bxs-chevron-down arrow more-arrow'></i>
                     <ul class= "more-sub-menu sub-menu">
                         <li><a href="#">About</a></li>
-                        <li><a href="#">Feedback</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
                     </ul>
                 </li>
             </ul>
@@ -64,13 +74,27 @@
 </nav>
     
     <!--===============NAVIGATION BAR===============-->
-    <!--=============== HEADER PICTURE ===============-->
-    
-<section class="banner" id="banner">
-    <div class="title"><h1>FEEDBACK MENU </h1></div>
-</section>
     
     <!--=============== HEADER PICTURE ===============-->
+    
+<div class="banner">
+    <div class="banz">
+        <img src="../images/developerPic2.png"> 
+        <div class="title">
+            <h1>Feedback Menu Page</h1>
+        <p>Welcome to the Feedback Menu Page.
+            <br>This page provides a form of communication between
+            <br>players and developers. Players will be able to send
+            <br>any form of feedback for the developers to investigate</p>
+            
+            <a href="#" class="feedbtn">Send Feedback</a>
+        </div>
+    </div>
+</div>
+    
+    <!--=============== HEADER PICTURE ===============-->
+    
+    
     <!--===============RECENT FEEDBACK===============-->
     <!-- <main id="feedback-holder">
         <h1 id="feedback-header">Recent Feedback</h1>
@@ -83,7 +107,9 @@
         
 
       </main> -->
-    <!--===============RECENT FEEDBACK===============-->    
+    <!--===============RECENT FEEDBACK===============-->   
+    
+    
      <!--===============FOOTER===============-->
 <footer class="footer-distributed" id="footer-feedback">
 

@@ -48,13 +48,36 @@ section{
   object-fit: cover;
 }
 .banner .banz h1{
-    position: relative;;
+    position: relative;
     padding-top: 200px;
+    font-family: 'Genshin', sans-serif;
     font-size: 90px;
     text-align: center;
     text-transform: uppercase;
     text-shadow: 4px 4px 4px #262626;
     color: #fff;
+}
+.banner .banz p{
+    position: relative;
+    padding-top: 20px;
+    font-family: 'Genshin', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 4px 4px 4px #262626;
+    color: #fff;
+}
+.feedbtn{
+  position: relative;
+  background: #262626;
+  width: 100%;
+  padding: 10px 30px;
+  top: 30px;
+  left: 570px;
+  color: #ffc000;
+  font-weight: 500;
+  font-family: 'Genshin', sans-serif;
+  text-decoration: none;
+  border-radius: 2px;
 }
 /* -- Recommended Sections -- */
 .recco_index{
