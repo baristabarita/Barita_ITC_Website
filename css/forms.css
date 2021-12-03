@@ -104,7 +104,7 @@ body {
   outline: none;
   box-sizing: border-box;
   text-align: center;
-  color:#fff
+  color: black;
 }
 
 #login-form-submit {
@@ -260,4 +260,40 @@ body {
 }
 #footer-feedback{
   top:800px;
+}
+/* ========== FEEDBACK MENU CSS ==========  */
+#feedbackmenu-header{
+  font-family: 'Genshin',sans-serif;
+  font-size: 25px;
+  color:#fff;
+}
+table{
+  width:60%;
+  border-collapse: collapse;
+  background:rgb(34,34,34);
+
+  color:#fff;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 10px 20px;
+}
+th{
+  text-align: center;
+}
+#loadmore{
+  font-family:'Genshin',sans-serif;
+  width: 200px;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  color: #ffae00;
+  font-weight: bold;
+  background-color: #3a3a3a;
+  cursor: pointer;
+  outline: none;
+}
+#footer-feedbackmenu{
+  top:1300px;
 }
