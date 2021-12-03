@@ -1,0 +1,149 @@
+.manga_index {
+    position: relative;
+    width: 100%;
+}
+.manga_index .featbanner {
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.manga_index .featbanner__inner {
+    width: 1280px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.manga_index .featbanner__title {
+    font-size: 36px;
+    height: 44px;
+    line-height: 44px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    /*text-shadow: 0 2px 6px rgb(0 0 0 / 10%);*/
+    text-shadow: 4px 4px 4px #262626;
+    color: #fff;
+}
+.manga_index .featbanner__desc img{
+    position: relative;
+    display: block;
+    width: 600px;
+    height: 250px;;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+}
+/* h2{  
+    position: absolute;
+    font-size: 17px;
+    font-weight: 100;
+    height: 44px;
+    margin-top: -13%;
+    left: 470px;
+    color: #fff;
+} */
+
+/* -- displayed characters -- */
+
+.chara_index{
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 340px;
+    overflow: hidden;
+}
+.chara_index .bod {
+    position: relative;
+    width: 195%;
+    left: 0px;
+    margin-left: -640px;
+    margin-right: auto;
+    background-size:cover;
+    overflow: hidden;
+}
+.chara_index .bod .charas {
+    display: flex;
+    justify-content:center;
+    width: 105%;
+    list-style-type: none;
+}
+.chara_index .bod h3{
+    padding-top: 30px;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 4px 4px 4px #262626;
+    transition: all 0.5s 0s ease;
+}
+.chara_index .bod .charas__item img {
+    transition: all 0.5s 0s ease;
+}
+.chara_index .bod .charas__item img{
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.manga_index .city {
+    width: 100%;
+}
+.manga_index .city__list-item {
+    position: relative;
+    width: 100%;
+    height: 260px;
+    background: center;
+    cursor: pointer;
+    overflow: hidden;
+}
+.manga_index .city__list-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: center no-repeat;
+}
+.manga_index .city__list-item p{
+    display: inline-block;
+    position: relative;
+    font-size: 36px;
+    color: #fff;
+    line-height: 75px;
+    width: 100%;
+    height: 260px;
+    text-align: center;
+    text-shadow: 0 2px 6px rgb(0 0 0 / 20%);
+    margin: 0 !important;
+    overflow: hidden;
+}
+.manga_index .city__list-item .city__listchar .charas_list{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
+.manga_index .city__list-item3 {
+    background-image: url(/_nuxt/img/9a62be8.jpg);
+}
+.manga_index .city__list-item--disable {
+    pointer-events: none;
+}*/
