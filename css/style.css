@@ -272,7 +272,7 @@ a{
     padding: 46px;
     width: 448px;
     height: 398px;
-    background: url(	https://genshin.mihoyo.com/_nuxt/img/77bb3df.png) center/cover no-repeat;
+    background: url(../images/AboutContBack.png) center/cover no-repeat;
 }
 .aboutitem_title {
     display: flex;

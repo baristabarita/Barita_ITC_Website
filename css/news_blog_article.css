@@ -203,11 +203,9 @@ a {
 }
 /* -- bottom section -- */
 .news_wrap .body .bottombar {
-    left: 50%;
-    bottom: 41px;
-    display: flex;
-    justify-content: space-between;
-    width: 721px;
-    margin: 24px 0 0 0;
-    user-select: none;
+   position: relative;
+   top: -40px;
+   left: 50px;
+   display: flex;
+   color: #262626;
 }
