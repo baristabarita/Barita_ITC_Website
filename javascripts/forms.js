@@ -13,3 +13,14 @@ loginButton.addEventListener("click", (e) => {
         loginErrorMsg.style.opacity = 1;
     }
 })
+
+function addFeedback(){
+    alert("Feedback successfully submitted");
+    // var newFeedback = document.getElementById("title-field").value;
+    // var newItem = document.createElement("LI");
+    // newItem.innerHTML = newFeedback;
+    // newItem.classList.add('collection-item'); 
+  
+    // document.querySelector(".collection").appendChild(newItem); 
+    
+  }
