@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang = "en" dir="ltr">
+    
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--=============== ICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!--=============== ICONS ===============-->
+    
+        <title>Genshin Impact - Connect</title>
+    
+    <!--=============== FONTS ===============-->
+    <!--=============== FONTS ===============-->
+    
+    <!--=============== CSS Files ===============-->
+    <link rel="stylesheet" href="../../css/navbar.css">
+    <link rel="stylesheet" href="../../css/charselect.css">
+    <link rel="stylesheet" href="../../css/charpage.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <!--=============== CSS FILES ===============-->
+
+    <!--=============== Inline CSS Parts ===============-->
+    <style>
+        html{
+            background: url(../../images/char_select/charapage_background.png) no-repeat center center fixed;
+            background-size: cover;
+        }
+        .chara_index .characont{
+        background: transparent url(../../images/char_select/Character-Banner2.png) no-repeat 0 0;
+        background-size: 100% 100%;
+        }
+        .skills_index{
+            background: url(../../images/Liyue1Blurred.png) no-repeat center;
+            background-size: cover;
+            position: absolute;
+            top: 340px;
+            overflow: hidden;
+        }
+        .footer-distributed{
+        top: 600px;
+        }
+    </style>
+    <!--=============== Inline CSS Parts ===============-->
+</head>
+<body>       
+    <!--=============== NAVIGATION BAR ===============-->
+    
+    <nav>
+        <div class="navbar">
+            <i class='bx bx-menu'></i>
+            <div class= "logo"><a href="#"><img src="../../images/Logo.png"></a></div>
+            <div class= "nav-links">
+            <div class="sidebar-logo"><span class="logo_name"><img src="../../images/Logo.png"></span>
+                <i class='bx bx-x'></i>
+                </div>
+                <ul class= "links">
+                    <li><a href= "../../html/index.html">HOME</a></li>
+                    <li><a href= "../../html/news.html">NEWS</a></li>
+                    <li>
+                        <a href="#">GAME INFO</a>
+                        <i class='bx bxs-chevron-down arrow gameinfo-arrow'></i>
+                        <ul class= "gameInfo-sub-menu sub-menu">
+                            <li><a href="../../html/media.html">Media</a></li>
+                            <li><a href="../../html/charaselect.html">Characters</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../../html/blog.html">BLOG</a></li>
+                    <li><a href="#">MORE</a>
+                        <i class='bx bxs-chevron-down arrow more-arrow'></i>
+                        <ul class= "more-sub-menu sub-menu">
+                            <li><a href="../../html/about.html">About</a></li>
+                            <li><a href="../../html/feedbackmenu.html">Feedback</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="login">
+                <a href="../../html/login.html" class="log">Log in</a>
+            </div>
+        </div>
+    </nav>
+    
+    <!--===============NAVIGATION BAR===============-->
+        
+
+
+
+
+    <!--=============== Character Show ===============-->
+
+<div class="chara_index">
+    <div class="characont">
+        <div class="characont_inner">
+
+            <!-- For Shown Character-->
+        <div class="characont_desc">
+            <img src="../../images/char_select/Character_Zhongli_Banner.png" class="chara_portait">
+        </div>
+            <!--<div class="featbanner_charname"><h2>Kaedehara Kazuha</h2></div>-->
+            <!-- For Featured Character -->
+        </div>
+    </div>
+</div>
+<!-- Character show end-->
+
+<!-- ablities -->
+
+<section class="featured">
+    <div class="content-wrap">
+
+        <div class="skills_index">
+            <div class="skills_cont">
+                <h4>Skills and Abilities</h4>
+                    <ul class="skills_main">
+
+                        <li title="Normal Attack" class="skills_atk">
+                        <div class="skills_img"><img src="../../images/char_select/Character_Zhongli_NA.gif"></div> 
+                        <h3 class="skills_title">Normal Attack:<br>Rain of Stone</h3>
+                        <p class="skills_summary">Performs up to 6 consecutive spear strikes</p>
+                        </li>
+                    
+                        <li title="Elemental Skill" class="skills_atk">
+                        <div class="skills_img"><img src="../../images/char_select/Character_Zhongli_SkillH.gif"></div> 
+                        <h3 class="skills_title">Elemental Skill:<br>Dominus Lapidis</h3>
+                        <p class="skills_summary">Creates a Stone Stele that deals GEO DMG and creates a shield based on Zhongli's Max HP.</p> 
+                        </li>
+                    
+                        <li title="Elemental Burst" class="skills_atk">
+                        <div class="skills_img"><img src="../../images/char_select/Character_Zhongli_Burst.gif"></div> 
+                        <h3 class="skills_title">Elemental Burst:<br>Planet Befall</h3>
+                        <p class="skills_summary">Brings a falling meteor down to earth, dealing massive Geo DMG to opponents caught in its AoE and applying the Petrification status to them.</p>
+                        </li>
+                    </ul>
+            </div>
+    </div>
+    
+</div>
+</section>
+
+    <!--=============== abilities end===============-->
+    <!-- Guide -->
+    <div class="chara_guide">
+        <h3> Character Guide </h3>
+        <img src="../../images/char_select/Character_Zhongli_Guide.png">
+    </div>
+    <!-- Guide End-->
+
+
+
+    <!--===============FOOTER===============-->
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <a href="../../html/about.html"><h3>About</h3></a>
+            <img src="../../images/Footer-Logos.png">
+        </div>
+
+        <div class="footer-right">
+            <h1> Copyright © 2020 miHoyo All Rights Reserved</h1>
+            <p>All content presented are rightfully owned<br>by miHoyo</p>
+        </div>
+
+    </footer>
+    <!--===============FOOTER===============-->
+    
+    
+    
+    <!--=============== JAVASCRIPTS USED ===============-->
+<script src="../javascripts/script.js"></script>
+    
+</body>
+</html>
