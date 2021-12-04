@@ -192,13 +192,6 @@ body {
   color: #ffae00;
 }
 /* ========== FEEDBACK CSS ==========  */
-.banner{
-  background: url(../images/developerPic2.png);
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-}
-
 #feedback-header{
   text-align:center;
   font-size: 16px;

@@ -56,6 +56,7 @@ a {
     position: relative;
     display: block;
     text-align: center;
+    font-family: 'Genshin', sans-serif;
     font-size: 70px;
     height: 100%;
     margin-top: 300px;
@@ -73,7 +74,7 @@ a {
     margin-right: auto;
     margin-bottom: 24px;
 }
-.banner .banz h1{
+.banner_index .banner h1{
     position: relative;
     padding-top: 200px;
     font-family: 'Genshin', sans-serif;
@@ -83,7 +84,7 @@ a {
     text-shadow: 4px 4px 4px #262626;
     color: #fff;
 }
-.banner .banz p{
+.banner_index .banner_desc p{
     position: relative;
     padding-top: 20px;
     font-family: 'Genshin', sans-serif;

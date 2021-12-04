@@ -1,0 +1,156 @@
+/* -- Character info --*/
+
+.chara_index {
+    position: relative;
+    width: 100%;
+}
+.chara_index .characont {
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    top: 50px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.chara_index .characont_inner {
+    width: 1280px;
+    height: 1000px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+/*.chara_index .characont_name {
+    position: relative;
+    font-size: 36px;
+    height: 45px;
+    line-height: 44px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    text-align: left;
+    text-shadow: 0 2px 6px rgb(0 0 0 / 10%);
+    text-shadow: 4px 4px 4px #262626;
+    color: #fff;
+}*/
+.chara_index .characont_desc img{
+    position: relative;
+    display: block;
+    width: 800px;
+    height: 350px;;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+/* == abilities == */
+.skills_index{
+    position: relative;
+    display: block;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 550px;
+}
+.skills_index .skills_cont {
+    position: relative;
+    width: 1280px;
+    left: 50%;
+    margin-left: -640px;
+    min-height: 1240px;
+    padding-bottom: 208px;
+}
+.skills_index .skills_cont .skills_main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14px;
+    width: 100%;
+    height: 700px;
+    list-style-type: none;
+}
+.skills_index .skills_cont h4{
+    padding-top: 15px;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 4px 4px 4px #262626;
+    transition: all 0.5s 0s ease;
+}
+.skills_index .skills_cont .skills_atk {
+    position: relative;
+    width: 420px;
+    height: 450px;
+    border-radius: 4px;
+    opacity: 0.9;
+}
+.skills_index .skills_cont .skills_img {
+    width: 380px;
+    height: 190px;
+    margin: 20px auto;
+    overflow: hidden;
+    box-shadow: 10px 10px 5px #262626;
+}
+.skills_index .skills_cont .skills_atk img {
+    transition: all 0.5s 0s ease;
+    margin-left: 10px;
+}
+.skills_index .skills_cont .skills_title {
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-family: 'Genshin', sans-serif;
+    text-align: center;
+    line-height: 34px;
+    color: #fefefe;
+    padding: 0 17px;
+    overflow: hidden;
+    white-space: normal;
+    max-height: 70px;
+    margin: 10px;
+    text-shadow: 4px 4px 4px #262626;
+
+}
+.skills_index .skills_cont .skills_summary {
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Genshin', sans-serif;
+    line-height: 22px;
+    color: #fff;
+    padding: 0 17px;
+    max-height: 88px;
+    overflow: hidden;
+    word-wrap: break-word;
+    white-space: normal;
+    margin: 0px 0px 0px 10px;
+    text-shadow: 4px 4px 4px #262626;
+}
+/* == ive given up on titleing == */
+
+.chara_guide{
+    position: relative;
+    top: 550px;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5px;
+}
+.chara_guide h3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 4px 4px 4px #262626;
+    transition: all 0.5s 0s ease;
+}
+.chara_guide img{
+    height: 90%;
+    width: 70%;
+    display: block;
+    justify-content: center;
+    object-fit:cover;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0px;
+    box-shadow: 10px 10px 5px #262626;
+}
